@@ -1,0 +1,6 @@
+preserve_hierarchy: true
+files:
+  - source: /strings/strings.json
+    translation: /strings/crowdin/%file_name%.%locale%.%file_extension%
+    type: json
+    update_option: update_as_unapproved
